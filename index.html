@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- <link href="http://fonts.cdnfonts.com/css/harry-potter" rel="stylesheet"> -->
+                
+  <title>Harry Potter Quiz</title>
+</head>
+<body>
+  <header>
+    <div>
+    <h1>Harry Potter Quiz</h1>
+    </div>
+  </header>
+  <main>
+  <section class="start">
+    <div class="container">
+    <p class="text">Put your knowledge of the Wizarding World of Harry Potter to the test! Whether 
+      you have memorised every line ever spoken by Harry, Hermione and Ron, know every detail 
+      about Hogwarts School or Hagrid's hut or simply love to hate Draco Malfoy or Lord Voldemort, 
+      our quiz is here to test your knowledge.</p>
+    </div>
+    <div class="button">
+    <button class="start-button">Magic Starts Here</button>
+    </div>
+    </section>
+    <section class="quiz hide">
+      <div class="question-section">
+      <h2 class="title">Questions</h2>
+    </div>
+      <div>
+        <div class="timediv">
+      <div class="timer-count"></div>
+      </div>
+      <h3 class="questions">
+      </h3>
+      </div>
+      <div class="button">
+        <button class="q1"></button>
+        <button class="q2"></button>
+        <button class="q3"></button>
+        <button class="q4"></button>
+        </div>
+    </section>
+    <section class="end hide">
+      <h2 class="end"><span>🏆</span>TriWizard Champion<span>🏆</span></h2>
+      <p class="container3">Congraduations on making it to the end of the quiz Muggle!</p>
+      <p class="score"></p>
+      <div class="scorecontainer">
+      <div >
+        <h3 class="hightitle"> High Scores </h3>
+        <p class="initname"></p>
+        <p class="highscores"></p>
+        <p class="logged"></p>
+    </div>
+    <div class="triwizard">
+      <input class="initials" placeholder="Enter Name"></input>
+      <button class="submit">Cast Spell</button>
+      </div>
+      </div>
+      <div class="resetbtn">
+      <button class="reset">Rest Game</button>
+      </div>
+    </section>
+    </main>
+
+    <audio id="audio"
+    src="./assets/Harry_Potter_Theme.mp3"
+    loop="loop">
+</audio>
+
+<script src="./assets/script.js"></script>
+</body>
+</html>

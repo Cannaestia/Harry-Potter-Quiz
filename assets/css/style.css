@@ -1,0 +1,240 @@
+* {
+  box-sizing: border-box;
+  padding:0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'Harry Potter Regular';
+  font-style: normal;
+  font-weight: 100;
+  src: url(HARRP___.TTF) format('woff');
+  }
+
+.hide {
+  display: none;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-family: Harry Potter Regular;
+  font-weight: 100;
+  font-size: 50px;    
+  color: goldenrod;
+                                         
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  margin: 30px;
+}
+
+p {
+  color: white;
+  font-size: 20px;
+  margin: 30px;
+  margin-top: 100px;
+}
+
+.text {
+  text-align: center;
+  width: 40%;
+  display: flex;
+
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.q1, .q2, .q3, .q4 {
+  display: flex;
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+  padding: 10px;
+  margin: 10px;
+}
+
+.q1:hover {
+  background-color: #fffdd0;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+.q2:hover {
+  background-color: #fffdd0;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.q3:hover {
+  background-color: #fffdd0;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.q4:hover {
+  background-color: #fffdd0;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  
+}
+
+body {
+  background-image: url(https://bi.im-g.pl/im/1b/7b/19/z26721051AMP,Harry-Potter--filmowy-kadr-z-serii--ktora-byla-wie.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  
+}
+.hightitle {
+  display: flex;
+  justify-content: center;
+  color: goldenrod;
+  font-size: 40px;
+  font-family: Harry Potter Regular;
+  font-weight: 100;
+  margin: 0;
+}
+
+.start-button {
+  height: 40px;
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+  margin: 20px;
+}
+
+.start-button:hover {
+  background-color: #fffdd0;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+header {
+  padding: 20px;
+  background-color: #262626;
+}
+
+.questions {
+  margin: 20px;
+}
+
+.title, .end {
+  font-size: 50px;
+}
+
+.timer-count{
+  color: white;
+  font-size: 30px;
+  font-family: Harry Potter Regular;
+  font-weight: 100;
+  color: goldenrod;
+  width: 20px;
+  display: flex;
+  text-align: center;
+  }
+
+  .timediv {
+    position:absolute;
+    top: 0;
+    right: 0;
+    margin-top: 15px;
+    padding-right: 200px;
+    
+  }
+
+  .question-section {
+  margin-top: 200px;
+  }
+
+  .triwizard {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  input {
+    height: 35px;
+  }
+
+  .resetbtn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: 30px;
+  }
+  .reset {
+    height: 40px;
+    width: 100px;
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+  margin: 20px;
+  }
+
+  .reset:hover {
+    background-color: #fffdd0;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  .submit {
+    background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+  }
+  .submit:hover {
+    background-color: #fffdd0;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  .score {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 50px;
+    
+  }
+
+  .hgihscores {
+    height: 200px;
+  }
+
+  .container3 {
+    text-align: center;
+    margin: 0;
+  }
+
+  .logged {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding-bottom: 30px;
+  }
+
+  .score-show {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .initname{
+    padding: 0;
+    margin: 0;
+  }
