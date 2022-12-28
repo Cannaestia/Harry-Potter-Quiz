@@ -50,6 +50,22 @@ p {
   justify-content: center;
 }
 
+particle {
+  position: fixed;
+  left: 0;
+  top: 0;
+  border-radius: 50%;
+  pointer-events: none;
+  opacity: 0;
+}
+
+
+
+
+
+
+
+
 .q1, .q2, .q3, .q4 {
   display: flex;
   background-color: white;
@@ -93,6 +109,7 @@ body {
   background-image: url(https://bi.im-g.pl/im/1b/7b/19/z26721051AMP,Harry-Potter--filmowy-kadr-z-serii--ktora-byla-wie.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  
 }
 
 h3 {
@@ -193,12 +210,12 @@ header {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   }
 
-  .submit {
-    background-color: white;
+  #magic {
+  background-color: white;
   color: black;
   border: 2px solid #e7e7e7;
   }
-  .submit:hover {
+  #magic:hover {
     background-color: #fffdd0;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   }
