@@ -15,7 +15,7 @@
 Test your knowledge and how well you know Harry Potter and his wizarding world!
 
 ## Live Link
-https://cannaestia.github.io/Quiz/
+https://cannaestia.github.io/Harry-Potter-Quiz/
 
 ## Visuals
 ![Harry-Potter-Quiz](./assets/images/Harry-Potter-Quiz%20(1).png)
